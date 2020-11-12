@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans:wght@100&family=Do+Hyeon&display=swap');
+
+
+body {
+    background-color: rgb(39, 39, 39);
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-dark .navbar-nav > li > a {
+    color: white;
+    font-weight: 500;
+}
+
+/* Jumbotron 1 */
+
+.jumbotron.first{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url(../imgs/background.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.first h1 {
+    padding-top: 50px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.first h1 span{
+    font-weight: 600;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.first p {
+    color: white;
+    font-weight: 300;
+}
+
+.first p span{
+    font-weight: 600;
+    color: white;
+}
+
+/* Jumbotron 2 */
+
+.jumbotron.second{
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+.container.dua {
+    margin-top: -30px;
+}
+
+.second h1 {
+    margin-bottom: -15px;
+    font-family: 'Acme', sans-serif;
+}
+
+.second .col-sm {
+    margin-bottom: 20px;
+}
+
+.col-sm {
+    font-family: 'Fira Sans', sans-serif;
+}
+/* Jumbotron 3 */
+
+.jumbotron.third{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    margin-top: 50px;
+}
+
+.container.tiga {
+    margin-top: -60px;
+}
+
+.third h1 {
+    margin-bottom: -15px;
+    font-family: 'Acme', sans-serif;
+}
+
+/* progress */
+
+.progress {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 70px;
+}
+
+h4 {
+    font-size: 1rem;
+    margin-top: 40px;
+    margin-left: 25px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.h4kedua {
+    margin-top: -50px;
+}
+
+/* Work */
+.carousel {
+    margin-top: -50px;
+    margin-bottom: 70px;
+}
+
+/* footer */
+.page-footer p {
+    color: white;
+}
+
+.page-footer p a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Garis */
+
+hr {
+    border-bottom: 2px solid white;
+    width: 30%;
+    padding-bottom: -10px;
+}
